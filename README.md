@@ -1,10 +1,10 @@
-# 🧾 Invoice & Billing Approval Workflow
+# Invoice and Billing Approval Workflow
 
-A clean, modern static website that visualises an end-to-end invoice and billing approval process — built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies, no build tools required.
+A clean, modern static website that visualises an end-to-end invoice and billing approval process. Built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies, no build tools required.
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Open `index.html` with Live Server in VS Code to preview locally.
 
@@ -22,21 +22,21 @@ invoice-workflow/
 
 ---
 
-## ✨ Features
+## Features
 
-- **8-step workflow** — from invoice submission to payment archiving
-- **Two approval tiers** — Manager (≤ $10,000) and Finance Director (> $10,000)
-- **Decision gates** — clearly shows Yes/No paths at each decision point
-- **Scroll reveal animations** — steps animate in as you scroll down
-- **Dark mode design** — modern dark UI with gradient accents
-- **Fully responsive** — works on desktop and mobile
-- **Zero dependencies** — no npm, no frameworks, just plain files
+- **8-step workflow** - from invoice submission to payment archiving
+- **Two approval tiers** - Manager (≤ $10,000) and Finance Director (> $10,000)
+- **Decision gates** - clearly shows Yes/No paths at each decision point
+- **Scroll reveal animations** - steps animate in as you scroll down
+- **Dark mode design** - modern dark UI with gradient accents
+- **Fully responsive** - works on desktop and mobile
+- **Zero dependencies** - no npm, no frameworks, just plain files
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### Option 1 — Live Server (recommended for VS Code)
+### Option 1 - Live Server (recommended for VS Code)
 
 1. Open the project folder in **VS Code**
 2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
@@ -44,7 +44,7 @@ invoice-workflow/
 4. Select **"Open with Live Server"**
 5. Your browser will open at `http://127.0.0.1:5500`
 
-### Option 2 — Open directly in browser
+### Option 2 - Open directly in browser
 
 1. Download all three files into the same folder
 2. Double-click `index.html`
@@ -54,7 +54,7 @@ invoice-workflow/
 
 ---
 
-## 🎨 Customisation
+## Customisation
 
 ### Change the colour theme
 Open `style.css` and edit the CSS variables at the top of the file:
@@ -99,7 +99,7 @@ Then add a matching colour rule in `style.css`:
 
 ---
 
-## 🌐 Deploying to GitHub Pages
+## Deploying to GitHub Pages
 
 1. Push all files to a GitHub repository
 2. Go to **Settings → Pages**
@@ -112,7 +112,7 @@ Then add a matching colour rule in `style.css`:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 | Technology | Purpose |
 |---|---|
@@ -123,7 +123,7 @@ Then add a matching colour rule in `style.css`:
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and free to use for personal or commercial purposes.
 
