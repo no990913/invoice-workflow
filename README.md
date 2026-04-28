@@ -112,7 +112,7 @@ Then add a matching colour rule in `style.css`:
 
 ---
 
-## Built With
+## Built With :
 
 | Technology | Purpose |
 |---|---|
