@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invoice & Billing Approval Workflow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <header>
+    <div class="badge">Finance Operations</div>
+    <h1>Invoice &amp; Billing<br /><span>Approval Workflow</span></h1>
+    <p class="subtitle">A clear and structured end to end workflow for reviewing, validating, approving, and processing vendor invoices, ensuring accuracy, compliance, and timely handling from initial submission through to final payment completion.</p>
+  </header>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-label">Total Steps</div>
+      <div class="stat-value teal">8</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Approval Tiers</div>
+      <div class="stat-value amber">2</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Threshold</div>
+      <div class="stat-value blue">$10k</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Avg. Cycle Time</div>
+      <div class="stat-value">3–5 days</div>
+    </div>
+  </div>
+
+  <div class="workflow-wrap">
+    <div class="section-label">Process flow</div>
+
+    <div class="steps">
+
+      <!-- STEP 1 -->
+      <div class="step step-1">
+        <div class="step-icon">📥</div>
+        <div class="step-body">
+          <div class="step-number">STEP 01</div>
+          <div class="step-title">Invoice Submitted</div>
+          <div class="step-desc">Vendor submits an invoice via email, portal, or physical document. Details include vendor name, invoice number, itemised charges, and due date.</div>
+          <div class="step-tags">
+            <span class="tag">Vendor action</span>
+            <span class="tag">Entry point</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="step step-2">
+        <div class="step-icon">🔍</div>
+        <div class="step-body">
+          <div class="step-number">STEP 02</div>
+          <div class="step-title">Accounts Payable Review</div>
+          <div class="step-desc">The AP team verifies vendor details, checks amounts against the purchase order, validates line items, and confirms receipt of goods or services.</div>
+          <div class="step-tags">
+            <span class="tag">AP Team</span>
+            <span class="tag">PO Matching</span>
+            <span class="tag">Verification</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DECISION 1 -->
+      <div class="decision-block">
+        <div style="flex:1">
+          <div class="decision-label">⬡ Decision — Errors found?</div>
+          <div class="decision-paths">
+            <div class="path">
+              <div class="path-dot yes"></div>
+              <div class="path-text"><strong style="color:#ff6b6b">Yes</strong> — Return invoice to vendor for correction</div>
+            </div>
+            <div class="path">
+              <div class="path-dot no"></div>
+              <div class="path-text"><strong style="color:#00d4aa">No</strong> — Proceed to manager approval</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="step step-3">
+        <div class="step-icon">⚠️</div>
+        <div class="step-body">
+          <div class="step-number">STEP 03 — if errors</div>
+          <div class="step-title">Return to Vendor</div>
+          <div class="step-desc">Invoice is flagged and returned to the vendor with a written explanation of the discrepancy or missing information required for resubmission.</div>
+          <div class="step-tags">
+            <span class="tag">Error handling</span>
+            <span class="tag">Vendor correction</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="step step-4">
+        <div class="step-icon">✅</div>
+        <div class="step-body">
+          <div class="step-number">STEP 04</div>
+          <div class="step-title">Manager Approval</div>
+          <div class="step-desc">The department manager reviews the invoice against the budget and approves or escalates. Standard authority applies to invoices under the $10,000 threshold.</div>
+          <div class="step-tags">
+            <span class="tag">Manager</span>
+            <span class="tag">Budget check</span>
+            <span class="tag">≤ $10,000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- THRESHOLD BLOCK -->
+      <div class="threshold-block">
+        <div class="threshold-label">⬡ Approval authority by amount</div>
+        <div class="threshold-grid">
+          <div class="threshold-item">
+            <div class="amount amber">≤ $10,000</div>
+            <div class="role">Department Manager</div>
+          </div>
+          <div class="threshold-item">
+            <div class="amount blue">&gt; $10,000</div>
+            <div class="role">Finance Director sign-off required</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5 -->
+      <div class="step step-5">
+        <div class="step-icon">🏦</div>
+        <div class="step-body">
+          <div class="step-number">STEP 05 — if &gt; $10k</div>
+          <div class="step-title">Finance Director Sign-off</div>
+          <div class="step-desc">For invoices exceeding the manager's threshold, the Finance Director performs an additional review and provides formal written authorisation before proceeding.</div>
+          <div class="step-tags">
+            <span class="tag">Finance Director</span>
+            <span class="tag">Escalation path</span>
+            <span class="tag">&gt; $10,000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="step step-6">
+        <div class="step-icon">📅</div>
+        <div class="step-body">
+          <div class="step-number">STEP 06</div>
+          <div class="step-title">Schedule Payment</div>
+          <div class="step-desc">The AP team assigns a payment due date based on vendor terms (Net 30, Net 60, etc.) and selects the appropriate payment method — bank transfer, ACH, or cheque.</div>
+          <div class="step-tags">
+            <span class="tag">AP Team</span>
+            <span class="tag">Net terms</span>
+            <span class="tag">Payment method</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 7 -->
+      <div class="step step-7">
+        <div class="step-icon">💸</div>
+        <div class="step-body">
+          <div class="step-number">STEP 07</div>
+          <div class="step-title">Process Payment</div>
+          <div class="step-desc">Payment is initiated via the selected method. A confirmation reference number is generated and shared with the vendor as proof of payment processing.</div>
+          <div class="step-tags">
+            <span class="tag">Treasury</span>
+            <span class="tag">Bank transfer / ACH</span>
+            <span class="tag">Confirmation sent</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 8 -->
+      <div class="step step-8">
+        <div class="step-icon">🗂️</div>
+        <div class="step-body">
+          <div class="step-number">STEP 08</div>
+          <div class="step-title">Record &amp; Archive</div>
+          <div class="step-desc">The transaction is posted to the general ledger, the invoice is marked as paid, and all documents are archived digitally for audit trail and compliance purposes.</div>
+          <div class="step-tags">
+            <span class="tag">General ledger</span>
+            <span class="tag">Audit trail</span>
+            <span class="tag">Compliance</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-left">invoice-billing-approval-workflow</div>
+    <div class="footer-right">Finance &amp; Accounts Payable</div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
