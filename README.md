@@ -127,6 +127,3 @@ Then add a matching colour rule in `style.css`:
 
 This project is open source and free to use for personal or commercial purposes.
 
----
-
-*Built with Claude — [claude.ai](https://claude.ai)*
